@@ -64,5 +64,8 @@ public interface SSEConnection {
 
 	@GenIgnore
 	HttpServerRequest request();
+	
+	@GenIgnore
+	RoutingContext context();
 
 }
