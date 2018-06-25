@@ -116,6 +116,11 @@ public class SSEConnectionImpl implements SSEConnection {
 	public HttpServerRequest request() {
 		return context.request();
 	}
+	
+	@Override
+	public RoutingContext contex() {
+		return context;
+	}
 
 	@Override
 	public String lastId() {
