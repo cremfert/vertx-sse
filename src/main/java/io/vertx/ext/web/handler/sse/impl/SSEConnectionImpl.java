@@ -118,7 +118,7 @@ public class SSEConnectionImpl implements SSEConnection {
 	}
 	
 	@Override
-	public RoutingContext contex() {
+	public RoutingContext context() {
 		return context;
 	}
 
